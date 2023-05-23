@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ScheduleController;
-
+use App\Http\Controllers\ForecastController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,4 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', [ScheduleController::class, 'GetForecast']);
+Route::get('/graph', [ForecastController::class, 'GetGraphData']);
+
+Route::get('/forecast', [ForecastController::class, 'GetForecast']);

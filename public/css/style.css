@@ -1,0 +1,34 @@
+body{
+    font-family: 'Roboto', sans-serif; font-weight: 300;
+}
+.va-unset{vertical-align: unset}
+.b-card{
+   
+     width: max-content;
+}
+.bolder{
+    font-family: 'Roboto', sans-serif; font-weight: 700;
+}
+.bg-30{
+    background-color: #303030;
+}
+.bg-44{
+    background-color: #444444;
+}
+.low-t{
+    opacity: 0.6;
+}
+.opaque-bg{
+    background: rgba(255,255,255, .1)
+
+}
+.opaque-bg.active{
+    background: rgba(255,255,255, .2)
+
+}
+.opaque-bg:hover{
+    background: rgba(255,255,255, .15);
+    transition: all 0.2s ease-out;
+    cursor:pointer;
+
+}
